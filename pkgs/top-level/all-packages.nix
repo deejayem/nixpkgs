@@ -8869,6 +8869,8 @@ with pkgs;
 
   harmonia = callPackage ../tools/package-management/harmonia { };
 
+  havn = callPackage ../tools/security/havn { };
+
   hayagriva = callPackage ../tools/typesetting/hayagriva { };
 
   hcl2json = callPackage ../applications/misc/hcl2json { };
